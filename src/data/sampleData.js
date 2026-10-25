@@ -130,6 +130,29 @@ export const portfolioData = {
   // --- 5. CÁC DỰ ÁN NỔI BẬT (FEATURED PROJECTS) ---
   projects: [
     {
+      id: 5,
+      title: "Digital Banking & Payment Processing System",
+      category: "Digital Banking & Payment Processing",
+      tags: ["Java 21", "Spring Boot 3", "Spring Security", "PostgreSQL", "Redis", "Apache Kafka", "React & TypeScript", "Docker", "Testcontainers"],
+      desc: "Hệ thống mô phỏng ngân hàng số và xử lý thanh toán, hỗ trợ quản lý khách hàng, tài khoản, chuyển khoản nội bộ, hạch toán kép, thanh toán ngoài giả lập, thông báo bất đồng bộ, đối soát giao dịch và audit vận hành.",
+      stars: "1k+",
+      image: "public/Digital.jpg",
+      features: [
+        "Xác thực JWT, refresh token, thu hồi phiên và phân quyền RBAC cho CUSTOMER, STAFF, ADMIN",
+        "Quản lý khách hàng, tài khoản thanh toán, số dư khả dụng và danh sách người thụ hưởng",
+        "Xử lý chuyển khoản nội bộ trong một transaction atomic, chống overspending và request trùng bằng idempotency key",
+        "Hạch toán kép với journal entry, các dòng Nợ/Có cân bằng và bút toán đảo khi cần điều chỉnh",
+        "Phát sự kiện sau commit bằng Transactional Outbox và xử lý thông báo bất đồng bộ qua Apache Kafka",
+        "Ứng dụng Redis cho cache-aside, rate limiting, OTP mô phỏng và quản lý session",
+        "Mô phỏng cổng thanh toán ngoài với timeout, retry an toàn và các trạng thái PENDING, SUCCESS, FAILED, UNKNOWN",
+        "Đối soát giao dịch, phát hiện chênh lệch, lưu audit log và cung cấp dashboard giám sát vận hành"
+      ],
+      githubUrl: "",
+      backendGithubUrl: "",
+      liveDemoUrl: ""
+    },
+
+    {
       id: 1,
       title: "Testifyed - Quiz & Examination Management System",
       category: "Education & Examination Platform",
